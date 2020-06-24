@@ -1,9 +1,10 @@
 # Discord Nitro sniper
-Discord ntro sniper made with NodeJS. Usually snipes in 10ms
+Discord nitro sniper made with NodeJS. Usually snipes in 10ms
 
-## Setup:
+## Usage:
 1. Insert your token in token-here.json
 2. Open install-pkgs.bat
 3. Open start.bat
 4. Enjoy!
 
+WARN: Using a selfbot is against TOS, It's not my fault if you get a ban when someone reports you.
