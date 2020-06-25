@@ -1,5 +1,5 @@
 # Discord Nitro sniper
-Discord nitro sniper made with NodeJS. Usually snipes in 10ms
+Discord nitro sniper made with NodeJS. Usually snipes in 2-10ms
 
 ## Usage:
 1. Insert your token in token-here.json
