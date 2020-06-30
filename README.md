@@ -1,4 +1,4 @@
-<h1 align="center">🎨 Discord Nitro Sniper 🎨</h1>
+<h1 align="center">🎨 Discord Nitro Sniper (old)🎨</h1>
 <h3 align="center">Nitro sniper. Usually snipes in 5-10ms</h3>
 
 
