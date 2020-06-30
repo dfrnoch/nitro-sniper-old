@@ -51,11 +51,11 @@ client.on('message', async message => {
     if(message.content.includes('discord.gift') || message.content.includes('discordapp.com/gifts/')) {
         var start = new Date()
 
-        if(message.channel.type == "dm") {
-            var bruh = "DM" 
-         } else {
-            var bruh = message.guild.name
-         }
+        if (message.channel.type == "dm") {
+            var bruh = `Send In Direct Message: ${message.author.username}`
+        } else {
+            var bruh = `Send In Guild: ${message.guild.name}`
+        }
 
         var gift = /(discord\.(gift)|discordapp\.com\/gift)\/.+[a-z]/
         var link = gift.exec(message.content);
@@ -63,11 +63,10 @@ client.on('message', async message => {
         var gcode = link[0].split('/')[1];
 
         console.log(`${getDateTime()} | Unknown Nitro code Sniped! | ${message.content}`.yellow);
-        console.log(`Server: ${bruh}`);
-        console.log(`Author: ${message.author.tag}`);
-        console.log(`Author ID: ${message.author.id}`);
+        console.log(`${bruh}`);
+        console.log(`Author Name: ${message.author.tag} | Author ID: ${message.author.id}`);
         var time = new Date() - start
-        console.log(`Elapsed: ${time}ms`);
+        console.log(`Elapsed Millisecond's: ${time}`);
         console.log(` `);
         axios({
             method: 'POST',
