@@ -1,5 +1,5 @@
 <h1 align="center">🎨 Discord Nitro Sniper (old)🎨</h1>
-<h3 align="center">Nitro sniper. Usually snipes in 5-10ms</h3>
+<h3 align="center">Nitro sniper. Usually snipes in 5-10ms. No longer supported!</h3>
 <h4 align="center">Use this: https://github.com/lnxcz/nitro-sniper</h4> 
 
 ## Usage:
