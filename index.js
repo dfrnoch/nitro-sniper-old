@@ -48,7 +48,7 @@ client.on('message', async message => {
         return hour + ":" + min + ":" + sec;
     
     }
-    if(message.content.includes('discord.gift') || message.content.includes('discordapp.com/gifts/')) {
+    if(message.content.includes('discord.gift') || message.content.includes('discordapp.com/gifts/') || message.content.includes('discord.com/gifts')) {
         var start = new Date()
 
         if(message.channel.type == "dm") {
@@ -62,7 +62,7 @@ client.on('message', async message => {
         if(!link) return;
         var gcode = link[0].split('/')[1];
 
-        console.log(`${getDateTime()} | Unknown Nitro code Sniped! | ${message.content}`.yellow);
+        console.log(`${getDateTime()} | Discord Nitro code Sniped! | ${message.content}`.yellow);
         console.log(`Server: ${bruh}`);
         console.log(`Author: ${message.author.tag}`);
         console.log(`Author ID: ${message.author.id}`);
