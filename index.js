@@ -1,3 +1,5 @@
+# Use this: https://github.com/lnxcz/discord-sniper
+
 const Discord = require("discord.js");
 const axios = require('axios').default;
 var setTitle = require('console-title');
